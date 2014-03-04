@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="navi">#c5c3c3</color>
+    <color name="ivory">#fffff0</color>
+    <color name="lightyellow">#ffffe0</color>
+    <color name="yellow">#ffff00</color>
+    <color name="select">#606467</color>
+    <color name="noselect">#848587</color>
+    <color name="loginsurface">#c1bdbc</color>
+    <color name="translucent">#00ff00ff</color>
+    <color name="blue">#54c6d6</color>
+    <color name="dsgtitle">#606366</color>
+    <color name="titlepro">#606366</color>
+    <color name="titleprobel">#888a8c</color>
+    <color name="newsmaintxtclor">#606366</color>
+    <color name="black">#000000</color>
+    
+</resources>

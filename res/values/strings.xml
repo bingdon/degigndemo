@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">D管家</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_group_view">GroupView</string>
+    <string name="title_activity_news_view">NewsView</string>
+    <string name="title_activity_chat_view">ChatView</string>
+    <string name="title_activity_my_team">MyTeam</string>
+    <string name="title_activity_my_design">MyDesign</string>
+    <string name="type">类型</string>
+
+    <string-array name="type">
+        <item>所有</item>
+        <item>视觉</item>
+        <item>室内</item>
+        <item>展览</item>
+        <item>潮物</item>
+    </string-array>
+
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_user_login">UserLogin</string>
+    <string name="login">登陆</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="uesrname">用户名</string>
+    <string name="nobind">未绑定</string>
+    <string name="buffer">缓存</string>
+    <string name="buffersize">缓存容量</string>
+    <string name="clearbuffer">清理缓存</string>
+    <string name="notice">提示</string>
+    <string name="wifistate">显示是否WIFI连接</string>
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+    <string name="rebind">重新绑定</string>
+    <string name="eyedsg">视觉设计</string>
+    <string name="roomdsg">室内设计</string>
+    <string name="zldsg">展览设计</string>
+    <string name="fasiondsg">潮流设计</string>
+    <string name="title_activity_team_info">TeamInfo</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="teaminfo">   Android apos;s application framework lets you create rich and innovative apps using a set of reusable components. This section explains how you can build the components that define the building blocks of your app and how to connect them together using intents.</string>
+    <string name="title_activity_news_info">NewsInfo</string>
+    <string name="title_activity_design_info">DesignInfo</string>
+    <string name="title_activity_team_pro_pic">TeamProPic</string>
+    <string name="mainstr">你可还记得小时候，在虫鸣鸟叫的傍晚，你和小伙伴卷起裤腿，踏进那树林深处，一起寻觅那飞舞的萤火虫。孩子们都喜欢把萤火虫收集到一个袋子里，看着袋子透出温暖的淡淡的光辉，心中便充满了无限的喜悦。
+当然，我们还是要爱护小动物们才对，所以今天给大家带来一款美丽的台灯，让你不用去捉萤火虫，也能拥有一袋子的温暖光芒。
+
+这款充满创意的束袋灯是来自法国的设计师Simon Naouri的作品，带着一贯的法式浪漫气息。不点亮的时候看起来就是一个白色的袋子，而一旦点亮台灯，温暖的黄色光芒就从袋子中透出来，非常温馨。而束在袋口的绳子，就充当了电源线的角色，非常巧妙。
+
+法国人的作品总是带有浪漫的气息。看到这款灯你联想到神马？虫鸣鸟叫的傍晚，听溪水潺潺，你和小伙伴卷起裤腿，踏进那树林深处...
+</string>
+    <string name="designname0">Simon Naouri</string>
+
+</resources>

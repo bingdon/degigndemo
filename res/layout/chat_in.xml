@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp" >
+
+        <ImageView
+            android:id="@+id/userheadimgin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:src="@drawable/photos_pic" />
+
+        <TextView
+            android:id="@+id/in_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/userheadimgin"
+            android:background="@drawable/talk_text_me_bg1"
+            android:text="TextView"
+            android:textColor="@color/select"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/timein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@+id/in_word"
+            android:src="@drawable/time" />
+
+        <TextView
+            android:id="@+id/timeintxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/timein"
+            android:text="TextView"
+            android:textColor="@color/select"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

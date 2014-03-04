@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity" >
+
+     <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tab_bar_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/frenametxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="互动聊天"
+            android:textColor="@color/dsgtitle"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sendlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/chat_bottom_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <Button
+            android:id="@+id/sendbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/send_kong"
+            android:text="发送" />
+
+        <EditText
+            android:id="@+id/sendeditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@+id/sendbutton"
+            android:layout_toRightOf="@+id/freheadimg"
+            android:background="@drawable/tab_bar_talk_bg"
+            android:ems="10" />
+
+        <ImageView
+            android:id="@+id/freheadimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/bingpersononline" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sendlayout"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title"
+        android:divider="@null"
+         android:cacheColorHint="@null"
+         android:layout_weight="1.0"
+        android:listSelector="#00000000" >
+
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/personlayout"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/sendlayout"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/online_bg" >
+
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" 
+             android:listSelector="#00000000">
+        </ListView>
+
+    </RelativeLayout>
+    
+</RelativeLayout>

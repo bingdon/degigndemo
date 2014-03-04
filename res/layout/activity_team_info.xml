@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamInfo" >
+
+    <ImageView
+        android:id="@+id/teamimagrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/middle_pic" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/team_info_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/teamtitleen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="28dp"
+                android:text="Candy Studio"
+                android:textColor="@color/ivory"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/teamtitlecn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="14dp"
+                android:text="糖果工作室"
+                android:textColor="@color/ivory" />
+
+            <TextView
+                android:id="@+id/teaminfotxt"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="24dp"
+                android:lineSpacingExtra="8dp"
+                android:text="     Android&apos;s application framework lets you create rich and innovative apps using a set of reusable components. This section explains how you can build the components that define the building blocks of your app and how to connect them together using intents."
+                android:textColor="@color/ivory" />
+
+            <TextView
+                android:id="@+id/projectshowen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="19dp"
+                android:text="Gallery"
+                android:textColor="@color/ivory"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="14dp"
+                android:text="项目展示"
+                android:textColor="@color/ivory" />
+
+            <RelativeLayout
+                android:id="@+id/gridlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/team_info_middle_pic1" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/imageView2"
+                    android:src="@drawable/team_info_middle_pic2" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView3"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/imageView3"
+                    android:src="@drawable/team_info_middle_pic3" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_marginTop="5dp"
+                    android:layout_toLeftOf="@+id/imageView3"
+                    android:src="@drawable/team_info_middle_pic1" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/imageView4"
+                    android:src="@drawable/team_info_middle_pic2" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imageView4"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/team_info_middle_pic3" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/contactlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/teamzp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:lineSpacingExtra="8dp"
+                    android:text="TextView"
+                    android:textColor="@color/ivory" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="20dp"
+                    android:lineSpacingExtra="8dp"
+                    android:text="Contact Us"
+                    android:textColor="@color/ivory"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_below="@+id/textView2"
+                    android:lineSpacingExtra="8dp"
+                    android:text="联系我们"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/teamnet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/teamzp"
+                    android:layout_below="@+id/teamzp"
+                    android:autoLink="web"
+                    android:lineSpacingExtra="8dp"
+                    android:text="TextView"
+                    android:textColor="@color/ivory" />
+
+                <TextView
+                    android:id="@+id/teamemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/teamnet"
+                    android:layout_below="@+id/teamnet"
+                    android:autoLink="email"
+                    android:lineSpacingExtra="8dp"
+                    android:text="TextView"
+                    android:textColor="@color/ivory" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    
+</RelativeLayout>

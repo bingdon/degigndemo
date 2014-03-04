@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/alltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="39dp"
+        android:text="所有"
+        android:textSize="36px" />
+
+    <ListView
+        android:id="@+id/leftlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginchoice"
+        android:layout_alignLeft="@+id/alltxt"
+        android:layout_below="@+id/alltxt"
+        android:layout_marginTop="55dp" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/loginchoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/leftlistview"
+        android:layout_alignParentBottom="true"
+        android:text="@string/login"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/eyedsgleftmainimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/shadow" />
+
+</RelativeLayout>

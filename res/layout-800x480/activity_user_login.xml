@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".UserLogin" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/logintitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/login"
+            android:textColor="@color/select"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/countname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/sinaweibo"
+        android:textColor="@color/noselect"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/loginchoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/countname"
+        android:layout_below="@+id/countname"
+        android:layout_marginTop="11dp"
+        android:text="@string/uesrname"
+        android:textColor="@color/loginsurface"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/roomdsgleftmaintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/loginchoice"
+        android:layout_alignBottom="@+id/loginchoice"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:text="@string/nobind"
+        android:textColor="@color/loginsurface"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/bingpubu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginchoice"
+        android:layout_alignRight="@+id/roomdsgleftmaintxt"
+        android:layout_below="@+id/loginchoice"
+        android:layout_marginTop="13dp"
+         android:clickable="true"
+        android:background="@drawable/bingbinding" >
+
+        <TextView
+            android:id="@+id/rebindtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/rebind"
+            android:textColor="@color/loginsurface"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/buffertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bingpubu"
+        android:layout_below="@+id/bingpubu"
+        android:layout_marginTop="39dp"
+        android:text="@string/buffer"
+        android:textColor="@color/noselect"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/buffersizetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buffertxt"
+        android:layout_below="@+id/buffertxt"
+        android:layout_marginTop="11dp"
+        android:text="@string/buffersize"
+        android:textColor="@color/loginsurface"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buffersizetxt"
+        android:layout_alignRight="@+id/bingpubu"
+        android:layout_below="@+id/buffersizetxt"
+        android:layout_marginTop="13dp"
+         android:clickable="true"
+        android:background="@drawable/bingbinding" >
+
+        <TextView
+            android:id="@+id/clearbuffertxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/clearbuffer"
+            android:textColor="@color/loginsurface"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/buffercount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buffersizetxt"
+        android:layout_alignRight="@+id/relativeLayout3"
+        android:text="217MB"
+        android:textColor="@color/loginsurface"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/noticetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout3"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginTop="39dp"
+        android:text="@string/notice"
+        android:textColor="@color/noselect"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/netstatetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/noticetxt"
+        android:layout_below="@+id/noticetxt"
+        android:layout_marginTop="11dp"
+        android:text="@string/wifistate"
+        android:textColor="@color/loginsurface"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/wifistateimag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/netstatetxt"
+        android:layout_alignRight="@+id/relativeLayout3"
+        android:src="@drawable/wifi_yes1" />
+
+    <TextView
+        android:id="@+id/abouttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/netstatetxt"
+        android:layout_below="@+id/netstatetxt"
+        android:layout_marginTop="30dp"
+        android:text="关于"
+        android:textColor="@drawable/binglogin"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/versiontxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/abouttxt"
+        android:layout_below="@+id/abouttxt"
+        android:layout_marginTop="11dp"
+        android:text="@string/version"
+        android:textColor="@color/loginsurface"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/aboutimag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/versiontxt"
+        android:layout_alignRight="@+id/wifistateimag"
+        android:src="@drawable/right" />
+
+    <TextView
+        android:id="@+id/versionnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/aboutimag"
+        android:layout_toLeftOf="@+id/aboutimag"
+        android:text="1.0"
+        android:textColor="@color/loginsurface"
+        android:layout_marginRight="19dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_above="@+id/countname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/line_binding"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</RelativeLayout>

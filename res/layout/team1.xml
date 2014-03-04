@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/team_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/middle_pic2_001" />
+
+    <RelativeLayout
+        android:id="@+id/team1re"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/middle_text_bg" >
+
+        <TextView
+            android:id="@+id/peoname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="12dp"
+            android:text="Bing"
+            android:textColor="@color/ivory"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/eyedsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/peoname"
+            android:layout_below="@+id/peoname"
+            android:layout_marginTop="8dp"
+            android:text="Android程序开发，睿智、激情!"
+            android:textColor="@color/ivory"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/indr0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/eyedsg"
+            android:layout_below="@+id/eyedsg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="程序设计"
+            android:textColor="@color/ivory"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/po"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/eyedsg"
+            android:layout_alignTop="@+id/indr0"
+             android:layout_marginTop="4dp"
+            android:src="@drawable/middle_text_circle_yellow" />
+
+        <ImageView
+            android:id="@+id/pl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/po"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/indr0"
+            android:src="@drawable/middle_text_circle_blue" />
+
+        <TextView
+            android:id="@+id/indr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/indr0"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/pl"
+            android:text="开发"
+            android:textColor="@color/ivory"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allleftbing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/allleftmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="19dp"
+        android:text="所有"
+        android:textColor="@color/select"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/eyedsgleftmaintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/allleftmain"
+        android:layout_below="@+id/allleftmain"
+        android:layout_marginTop="59dp"
+        android:text="@string/eyedsg"
+        android:textColor="@color/noselect"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/eyedsgleftmainimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/allleftmain"
+        android:layout_marginTop="42dp"
+        android:clickable="true"
+        android:src="@drawable/bingmyteam" />
+
+    <ImageView
+        android:id="@+id/zldsgleftmainimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/roomdsgleftmainimg"
+        android:clickable="true"
+        android:src="@drawable/bingmyteam" />
+
+    <ImageView
+        android:id="@+id/roomdsgleftmainimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/eyedsgleftmainimg"
+        android:clickable="true"
+        android:src="@drawable/bingmyteam" />
+
+    <TextView
+        android:id="@+id/roomdsgleftmaintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eyedsgleftmaintxt"
+        android:layout_alignTop="@+id/roomdsgleftmainimg"
+        android:layout_marginTop="14dp"
+        android:text="@string/roomdsg"
+        android:textColor="@color/noselect"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/zldsgleftmaintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/roomdsgleftmaintxt"
+        android:layout_alignTop="@+id/zldsgleftmainimg"
+        android:layout_marginTop="14dp"
+        android:text="@string/zldsg"
+        android:textColor="@color/noselect"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fasiondsgleftmaintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/zldsgleftmaintxt"
+        android:layout_alignTop="@+id/fasiondsgleftmainimg"
+        android:layout_marginTop="14dp"
+        android:text="@string/fasiondsg"
+        android:textColor="@color/noselect"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/fasiondsgleftmainimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/zldsgleftmainimg"
+        android:clickable="true"
+        android:src="@drawable/bingmyteam" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/loginleftmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fasiondsgleftmaintxt"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="46dp"
+        android:text="@string/login"
+        android:textColor="@drawable/binglogin"
+        android:textSize="18sp" />
+
+</RelativeLayout>

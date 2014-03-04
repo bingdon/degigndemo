@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".DesignInfo" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+             <RelativeLayout
+        android:id="@+id/design_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/designinfo_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="62dp"
+            android:src="@drawable/designer_info0" />
+
+        <TextView
+            android:id="@+id/design_name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="21dp"
+            android:layout_toRightOf="@+id/designinfo_head"
+            android:text="aboutdena"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/dsinfoline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/design_info_line" />
+
+        <TextView
+            android:id="@+id/design_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/design_name_1"
+            android:layout_below="@+id/design_name_1"
+            android:layout_marginTop="17dp"
+            android:text="视觉设计师"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/design_name_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/design_name_1"
+            android:layout_alignLeft="@+id/design_name_1"
+            android:layout_marginBottom="8dp"
+            android:text="@string/designname0"
+            android:textSize="21sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/design_name_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/design_title_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/designname0" />
+
+    <TextView
+        android:id="@+id/designinfo_main0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="19dp"
+        android:lineSpacingExtra="11dp"
+        android:text="TextView"
+        android:textColor="@color/newsmaintxtclor"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/designinfo_ima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/designinfo_main"
+        android:layout_below="@+id/designinfo_main"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/design_info_picture" />
+
+    <TextView
+        android:id="@+id/designinfo_main1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="11dp"
+        android:text="TextView"
+        android:textColor="@color/newsmaintxtclor"
+        android:textSize="14sp" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

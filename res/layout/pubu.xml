@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/bingpubu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bing_middle_bg"
+        android:paddingBottom="3dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingTop="0dp" >
+
+        <ImageView
+            android:id="@+id/bingdesinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_launcher" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bingdesinger"
+            android:layout_alignRight="@+id/bingdesinger"
+            android:layout_below="@+id/bingdesinger" >
+
+            <TextView
+                android:id="@+id/desname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="TextView"
+                android:textColor="@color/dsgtitle"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/desintro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desname"
+                android:layout_centerHorizontal="true"
+                android:text="TextView"
+                android:textColor="@color/blue"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/pubu_mengban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bingpubu"
+        android:layout_alignLeft="@+id/bingpubu"
+        android:layout_alignRight="@+id/bingpubu"
+        android:layout_alignTop="@+id/bingpubu"
+        android:scaleType="fitXY"
+        android:src="@drawable/bing_mengban" />
+
+</RelativeLayout>
